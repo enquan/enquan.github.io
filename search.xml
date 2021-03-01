@@ -1,59 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>基于GitHub Pages与Hexo搭建博客</title>
-      <link href="posts/2021-02-16/de4bbc48/"/>
-      <url>posts/2021-02-16/de4bbc48/</url>
-      
-        <content type="html"><![CDATA[<p><strong>写在前面：</strong></p><p>本文为搭建本博客的个人记录，不是保姆级教程。</p><p>（未完待续……）</p><a id="more"></a><h1 id="Github-Pages-Hexo搭建博客"><a href="#Github-Pages-Hexo搭建博客" class="headerlink" title="Github Pages + Hexo搭建博客"></a>Github Pages + Hexo搭建博客</h1><ul><li>Hexo+Github: 个人博客网站搭建完全教程(看这篇就够了)：<a href="https://www.cnblogs.com/shwee/p/11421156.html">https://www.cnblogs.com/shwee/p/11421156.html</a></li><li>GitHub+Hexo+Next搭建博客：<a href="https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a></li><li>hexo超完整的搭建教程，让你拥有一个专属个人博客：<a href="https://zhuanlan.zhihu.com/p/44213627">https://zhuanlan.zhihu.com/p/44213627</a></li><li>超详细Hexo+Github博客搭建小白教程：<a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a></li><li>Hexo文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></li></ul><h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><ul><li>NexT：<a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></li><li>NexT主题文档：<a href="https://theme-next.js.org/docs/">https://theme-next.js.org/docs/</a></li></ul><h1 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h1><ul><li>在Hexo中渲染MathJax数学公式：<a href="https://www.jianshu.com/p/7ab21c7f0674">https://www.jianshu.com/p/7ab21c7f0674</a></li></ul><h1 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h1><ul><li>PicGo：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></li><li>Github+jsDelivr+PicGo 打造稳定快速、高效免费图床：<a href="https://www.itrhx.com/2019/08/01/A27-image-hosting/">https://www.itrhx.com/2019/08/01/A27-image-hosting/</a></li><li>Typora原生集成PicGo图床工具！：<a href="https://blog.csdn.net/bruce_6/article/details/104821531">https://blog.csdn.net/bruce_6/article/details/104821531</a></li></ul><h1 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h1><ul><li>Hexo 博客站点加速不完全指南：<a href="https://erenship.com/posts/db37.html">https://erenship.com/posts/db37.html</a></li><li>Hexo+Github+Coding搭建博客：<a href="https://zhuanlan.zhihu.com/p/142545818">https://zhuanlan.zhihu.com/p/142545818</a> （参考优化部分）</li><li>使用jsdelivr加速hexo next主题：<a href="https://blog.csdn.net/RayDon03/article/details/104398759">https://blog.csdn.net/RayDon03/article/details/104398759</a></li><li>Hexo搭建个人博客（十四） | 修改文章永久链接为随机编号：<a href="https://blog.csdn.net/Mculover666/article/details/101525678">https://blog.csdn.net/Mculover666/article/details/101525678</a></li><li>文章截断：<a href="https://github.com/chekun/hexo-excerpt">https://github.com/chekun/hexo-excerpt</a></li></ul><h1 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h1><ul><li>github怎么绑定自己的域名？：<a href="https://www.zhihu.com/question/31377141">https://www.zhihu.com/question/31377141</a></li></ul><h1 id="免费顶级域名"><a href="#免费顶级域名" class="headerlink" title="免费顶级域名"></a>免费顶级域名</h1><ul><li>免费顶级域名申请教程：<a href="https://post.smzdm.com/p/apzkoxg9/">https://post.smzdm.com/p/apzkoxg9/</a></li><li>美国身份大全：<a href="http://www.shenfendaquan.com/">http://www.shenfendaquan.com/</a></li><li>freenom域名解析问题：<a href="https://blog.csdn.net/chenwenjie1992/article/details/100921228">https://blog.csdn.net/chenwenjie1992/article/details/100921228</a></li></ul><h1 id="域名可用性及价格"><a href="#域名可用性及价格" class="headerlink" title="域名可用性及价格"></a>域名可用性及价格</h1><ul><li><a href="https://www.domcomp.com/">https://www.domcomp.com/</a></li></ul><h1 id="搜索引擎收录"><a href="#搜索引擎收录" class="headerlink" title="搜索引擎收录"></a>搜索引擎收录</h1><ul><li>让百度和google收录我们的网站：<a href="https://crossoverjie.top/2016/05/19/baidu-google/">https://crossoverjie.top/2016/05/19/baidu-google/</a></li></ul><h1 id="多终端同步（未完成）"><a href="#多终端同步（未完成）" class="headerlink" title="多终端同步（未完成）"></a>多终端同步（未完成）</h1><ul><li>利用Hexo在多台电脑上提交和更新github pages博客：<a href="https://www.jianshu.com/p/0b1fccce74e0">https://www.jianshu.com/p/0b1fccce74e0</a></li><li>使用hexo，如果换了电脑怎么更新博客？：<a href="https://www.zhihu.com/question/21193762">https://www.zhihu.com/question/21193762</a></li><li>Windows下hexo博客迁移：<a href="https://zhuanlan.zhihu.com/p/106838262">https://zhuanlan.zhihu.com/p/106838262</a></li></ul><h1 id="双平台部署（GitHub-Coding）（未完成）"><a href="#双平台部署（GitHub-Coding）（未完成）" class="headerlink" title="双平台部署（GitHub+Coding）（未完成）"></a>双平台部署（GitHub+Coding）（未完成）</h1><ul><li>Hexo 双线部署到 Coding 和 GitHub 并实现全站 HTTPS：<a href="https://zhuanlan.zhihu.com/p/100926319">https://zhuanlan.zhihu.com/p/100926319</a></li><li>用Github和Coding双线绑定自定义域名：<a href="http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/">http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/</a></li><li>部署到github和coding上的hexo的个人博客绑定同一域名：<a href="https://blog.csdn.net/qq_18144905/article/details/82724800">https://blog.csdn.net/qq_18144905/article/details/82724800</a></li></ul>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>基于GitHub Pages与Hexo搭建博客</title>
+    <url>/posts/2021-02-16/de4bbc48/</url>
+    <content><![CDATA[<p><strong>写在前面：</strong></p>
+<p>本文为搭建本博客的个人记录，不是保姆级教程。</p>
+<p>（未完待续……）</p>
+<a id="more"></a>
+<h1 id="Github-Pages-Hexo搭建博客"><a href="#Github-Pages-Hexo搭建博客" class="headerlink" title="Github Pages + Hexo搭建博客"></a>Github Pages + Hexo搭建博客</h1><ul>
+<li>Hexo+Github: 个人博客网站搭建完全教程(看这篇就够了)：<a href="https://www.cnblogs.com/shwee/p/11421156.html">https://www.cnblogs.com/shwee/p/11421156.html</a></li>
+<li>GitHub+Hexo+Next搭建博客：<a href="https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a></li>
+<li>hexo超完整的搭建教程，让你拥有一个专属个人博客：<a href="https://zhuanlan.zhihu.com/p/44213627">https://zhuanlan.zhihu.com/p/44213627</a></li>
+<li>超详细Hexo+Github博客搭建小白教程：<a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a></li>
+<li>Hexo文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></li>
+</ul>
+<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><ul>
+<li>NexT：<a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></li>
+<li>NexT主题文档：<a href="https://theme-next.js.org/docs/">https://theme-next.js.org/docs/</a></li>
+</ul>
+<h1 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h1><ul>
+<li>在Hexo中渲染MathJax数学公式：<a href="https://www.jianshu.com/p/7ab21c7f0674">https://www.jianshu.com/p/7ab21c7f0674</a></li>
+</ul>
+<h1 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h1><ul>
+<li>PicGo：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></li>
+<li>Github+jsDelivr+PicGo 打造稳定快速、高效免费图床：<a href="https://www.itrhx.com/2019/08/01/A27-image-hosting/">https://www.itrhx.com/2019/08/01/A27-image-hosting/</a></li>
+<li>Typora原生集成PicGo图床工具！：<a href="https://blog.csdn.net/bruce_6/article/details/104821531">https://blog.csdn.net/bruce_6/article/details/104821531</a></li>
+</ul>
+<h1 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h1><ul>
+<li>Hexo 博客站点加速不完全指南：<a href="https://erenship.com/posts/db37.html">https://erenship.com/posts/db37.html</a></li>
+<li>Hexo+Github+Coding搭建博客：<a href="https://zhuanlan.zhihu.com/p/142545818">https://zhuanlan.zhihu.com/p/142545818</a> （参考优化部分）</li>
+<li>使用jsdelivr加速hexo next主题：<a href="https://blog.csdn.net/RayDon03/article/details/104398759">https://blog.csdn.net/RayDon03/article/details/104398759</a></li>
+<li>Hexo搭建个人博客（十四） | 修改文章永久链接为随机编号：<a href="https://blog.csdn.net/Mculover666/article/details/101525678">https://blog.csdn.net/Mculover666/article/details/101525678</a></li>
+<li>文章截断：<a href="https://github.com/chekun/hexo-excerpt">https://github.com/chekun/hexo-excerpt</a></li>
+</ul>
+<h1 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h1><ul>
+<li>github怎么绑定自己的域名？：<a href="https://www.zhihu.com/question/31377141">https://www.zhihu.com/question/31377141</a></li>
+</ul>
+<h1 id="免费顶级域名"><a href="#免费顶级域名" class="headerlink" title="免费顶级域名"></a>免费顶级域名</h1><ul>
+<li>免费顶级域名申请教程：<a href="https://post.smzdm.com/p/apzkoxg9/">https://post.smzdm.com/p/apzkoxg9/</a></li>
+<li>美国身份大全：<a href="http://www.shenfendaquan.com/">http://www.shenfendaquan.com/</a></li>
+<li>freenom域名解析问题：<a href="https://blog.csdn.net/chenwenjie1992/article/details/100921228">https://blog.csdn.net/chenwenjie1992/article/details/100921228</a></li>
+</ul>
+<h1 id="域名可用性及价格"><a href="#域名可用性及价格" class="headerlink" title="域名可用性及价格"></a>域名可用性及价格</h1><ul>
+<li><a href="https://www.domcomp.com/">https://www.domcomp.com/</a></li>
+</ul>
+<h1 id="搜索引擎收录"><a href="#搜索引擎收录" class="headerlink" title="搜索引擎收录"></a>搜索引擎收录</h1><ul>
+<li>让百度和google收录我们的网站：<a href="https://crossoverjie.top/2016/05/19/baidu-google/">https://crossoverjie.top/2016/05/19/baidu-google/</a></li>
+</ul>
+<h1 id="多终端同步（未完成）"><a href="#多终端同步（未完成）" class="headerlink" title="多终端同步（未完成）"></a>多终端同步（未完成）</h1><ul>
+<li>利用Hexo在多台电脑上提交和更新github pages博客：<a href="https://www.jianshu.com/p/0b1fccce74e0">https://www.jianshu.com/p/0b1fccce74e0</a></li>
+<li>使用hexo，如果换了电脑怎么更新博客？：<a href="https://www.zhihu.com/question/21193762">https://www.zhihu.com/question/21193762</a></li>
+<li>Windows下hexo博客迁移：<a href="https://zhuanlan.zhihu.com/p/106838262">https://zhuanlan.zhihu.com/p/106838262</a></li>
+</ul>
+<h1 id="双平台部署（GitHub-Coding）（未完成）"><a href="#双平台部署（GitHub-Coding）（未完成）" class="headerlink" title="双平台部署（GitHub+Coding）（未完成）"></a>双平台部署（GitHub+Coding）（未完成）</h1><ul>
+<li>Hexo 双线部署到 Coding 和 GitHub 并实现全站 HTTPS：<a href="https://zhuanlan.zhihu.com/p/100926319">https://zhuanlan.zhihu.com/p/100926319</a></li>
+<li>用Github和Coding双线绑定自定义域名：<a href="http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/">http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/</a></li>
+<li>部署到github和coding上的hexo的个人博客绑定同一域名：<a href="https://blog.csdn.net/qq_18144905/article/details/82724800">https://blog.csdn.net/qq_18144905/article/details/82724800</a></li>
+</ul>
+]]></content>
       <categories>
-          
-          <category> 个人记录 </category>
-          
+        <category>个人记录</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> GitHub </tag>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇博文</title>
-      <link href="posts/2021-02-15/d87f7e0c/"/>
-      <url>posts/2021-02-15/d87f7e0c/</url>
-      
-        <content type="html"><![CDATA[<p>本文作为本博客的第一篇文章，主要分为两部分：第一部分是回顾本人的博客生涯，以及搭建博客的过程总结与体会（更为详细的记录将在另一篇文章）；第二部分则是对博客进行功能性测试，重点针对Hexo采用的Markdown语法。</p><a id="more"></a><hr><p>以下内容为测试本博客对Markdown语法的支持情况。</p><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><ul><li>这是一个列表<ul><li>这是一个列表<ul><li>This is a list.<ul><li>A list.</li></ul></li></ul></li></ul></li></ul><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><ol><li>标号1</li><li>标号2</li><li>No. 3</li><li>No. 4</li><li>第5</li><li>第六</li></ol><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><p>这是<strong>一句</strong>中文。This is an <em>English</em> sentence.</p><p>这是<strong><em>另一句</em></strong>中文。This is another <strong><em>English</em></strong> sentence.</p><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><p>这里，我们需要用到<code>print</code>函数进行输出。</p><p>变量名命名为<code>val</code>。</p><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy</span><br><span class="line"><span class="keyword">from</span> torch <span class="keyword">import</span> torchvision</span><br><span class="line"></span><br><span class="line">print(<span class="string">"Hello world"</span>)</span><br><span class="line"><span class="keyword">if</span> a==<span class="number">1</span>:</span><br><span class="line">    print(<span class="string">"Hello 1."</span>)<span class="comment">#这是注释</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></tbody></table></figure><h5 id="Fifth-title"><a href="#Fifth-title" class="headerlink" title="Fifth title"></a>Fifth title</h5><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    print(<span class="string">"Hello world!"</span>)<span class="comment">//这是注释</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><h6 id="6级标题"><a href="#6级标题" class="headerlink" title="6级标题"></a>6级标题</h6><p>我们可以得到$f(x)=x^2+\sin x-2\tan x$</p><script type="math/tex; mode=display">a^2+b^2=c^2</script><p>测试测试</p><script type="math/tex; mode=display">\sum_{k=1}^n\frac1k=\ln n+\mathrm{C}\tag*{[Euler]}\\</script><p>这是显而易见的。</p><blockquote><p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p><blockquote><p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p></blockquote><p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p></blockquote><p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p><h1 id="标题中的数学公式-pi-arctan-x"><a href="#标题中的数学公式-pi-arctan-x" class="headerlink" title="标题中的数学公式$\pi+\arctan x$"></a>标题中的数学公式$\pi+\arctan x$</h1><p><a href="http://www.google.com/">Google</a></p><div class="table-container"><table><thead><tr><th>test</th><th>More Actionstest</th><th>即可接口</th></tr></thead><tbody><tr><td>More Actionstest</td><td>test</td><td>CDSS</td></tr><tr><td>More Actionstest</td><td>test</td><td>$f(x)=444x+555$</td></tr><tr><td>测试</td><td>46465</td><td><strong>gggaf</strong>gehh<strong><em>ddd</em></strong>ffa<em>啊</em></td></tr></tbody></table></div><p>沙沙</p><h1 id="图片与视频"><a href="#图片与视频" class="headerlink" title="图片与视频"></a>图片与视频</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="https://cdn.jsdelivr.net/gh/enquan/imagehost/images/20210217003715.jpg" alt="Wallpaper"></p><h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=756662934&amp;bvid=BV19r4y1P7oT&amp;cid=298292799&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      
-      
+      <tags>
+        <tag>GitHub</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇博文</title>
+    <url>/posts/2021-02-15/d87f7e0c/</url>
+    <content><![CDATA[<p>本文作为本博客的第一篇文章，主要分为两部分：第一部分是回顾本人的博客生涯，以及搭建博客的过程总结与体会（更为详细的记录将在另一篇文章）；第二部分则是对博客进行功能性测试，重点针对Hexo采用的Markdown语法。</p>
+<a id="more"></a>
+<hr>
+<p>以下内容为测试本博客对Markdown语法的支持情况。</p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><ul>
+<li>这是一个列表<ul>
+<li>这是一个列表<ul>
+<li>This is a list.<ul>
+<li>A list.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><ol>
+<li>标号1</li>
+<li>标号2</li>
+<li>No. 3</li>
+<li>No. 4</li>
+<li>第5</li>
+<li>第六</li>
+</ol>
+<h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><p>这是<strong>一句</strong>中文。This is an <em>English</em> sentence.</p>
+<p>这是<strong><em>另一句</em></strong>中文。This is another <strong><em>English</em></strong> sentence.</p>
+<h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><p>这里，我们需要用到<code>print</code>函数进行输出。</p>
+<p>变量名命名为<code>val</code>。</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy</span><br><span class="line"><span class="keyword">from</span> torch <span class="keyword">import</span> torchvision</span><br><span class="line"></span><br><span class="line">print(<span class="string">"Hello world"</span>)</span><br><span class="line"><span class="keyword">if</span> a==<span class="number">1</span>:</span><br><span class="line">    print(<span class="string">"Hello 1."</span>)<span class="comment">#这是注释</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></tbody></table></figure>
+<h5 id="Fifth-title"><a href="#Fifth-title" class="headerlink" title="Fifth title"></a>Fifth title</h5><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    print(<span class="string">"Hello world!"</span>)<span class="comment">//这是注释</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h6 id="6级标题"><a href="#6级标题" class="headerlink" title="6级标题"></a>6级标题</h6><p>我们可以得到$f(x)=x^2+\sin x-2\tan x$</p>
+<script type="math/tex; mode=display">
+a^2+b^2=c^2</script><p>测试测试</p>
+<script type="math/tex; mode=display">
+\sum_{k=1}^n\frac1k=\ln n+\mathrm{C}\tag*{[Euler]}\\</script><p>这是显而易见的。</p>
+<blockquote>
+<p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p>
+<blockquote>
+<p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p>
+</blockquote>
+<p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p>
+</blockquote>
+<p><code>\tag</code>命令只是临时地修改个别的编号，如果要统一修改公式的编号格式，可以使用<strong>mathtools</strong>宏包的<code>\newtagform</code>，<code>\renewtagform</code>和<code>\usetagform</code>命令。可以用它们定义新类型的编号风格（或重定义已有类型），在文档中分别选用。$f(x)=\sin x+\cos (x^2)+\tan 2x$</p>
+<h1 id="标题中的数学公式-pi-arctan-x"><a href="#标题中的数学公式-pi-arctan-x" class="headerlink" title="标题中的数学公式$\pi+\arctan x$"></a>标题中的数学公式$\pi+\arctan x$</h1><p><a href="http://www.google.com/">Google</a></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>test</th>
+<th>More Actionstest</th>
+<th>即可接口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>More Actionstest</td>
+<td>test</td>
+<td>CDSS</td>
+</tr>
+<tr>
+<td>More Actionstest</td>
+<td>test</td>
+<td>$f(x)=444x+555$</td>
+</tr>
+<tr>
+<td>测试</td>
+<td>46465</td>
+<td><strong>gggaf</strong>gehh<strong><em>ddd</em></strong>ffa<em>啊</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>沙沙</p>
+<h1 id="图片与视频"><a href="#图片与视频" class="headerlink" title="图片与视频"></a>图片与视频</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="https://cdn.jsdelivr.net/gh/enquan/imagehost/images/20210217003715.jpg" alt="Wallpaper"></p>
+<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=756662934&amp;bvid=BV19r4y1P7oT&amp;cid=298292799&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
       <categories>
-          
-          <category> 博客 </category>
-          
+        <category>博客</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
 </search>
