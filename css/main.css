@@ -1219,7 +1219,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #367ea4;
+  background: #e2e3ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2731,7 +2731,7 @@ mjx-container + br {
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #fff;
+  color: #ddd;
 }
 .btn {
   color: #49b1f5;
