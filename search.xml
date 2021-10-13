@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>New Device</title>
+    <url>/posts/2021-10-13/a3642880/</url>
+    <content><![CDATA[<p><strong>写在前面：</strong></p>
+<p>本文为搭建本博客的个人记录，不是保姆级教程。</p>
+<p>（未完待续……）</p>
+<a id="more"></a>
+<h1 id="Github-Pages-Hexo搭建博客"><a href="#Github-Pages-Hexo搭建博客" class="headerlink" title="Github Pages + Hexo搭建博客"></a>Github Pages + Hexo搭建博客</h1><ul>
+<li>Hexo+Github: 个人博客网站搭建完全教程(看这篇就够了)：<a href="https://www.cnblogs.com/shwee/p/11421156.html">https://www.cnblogs.com/shwee/p/11421156.html</a></li>
+<li><p>GitHub+Hexo+Next搭建博客：<a href="https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a></p>
+</li>
+<li><p>实验结果如下</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>个人记录</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>基于GitHub Pages与Hexo搭建博客</title>
     <url>/posts/2021-02-16/de4bbc48/</url>
     <content><![CDATA[<p><strong>写在前面：</strong></p>
@@ -62,8 +84,8 @@
         <category>个人记录</category>
       </categories>
       <tags>
-        <tag>GitHub</tag>
         <tag>Hexo</tag>
+        <tag>GitHub</tag>
       </tags>
   </entry>
   <entry>
