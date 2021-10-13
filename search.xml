@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>New Device</title>
-    <url>/posts/2021-10-13/a3642880/</url>
+    <title>基于GitHub Pages与Hexo搭建博客</title>
+    <url>/posts/2021-02-16/de4bbc48/</url>
     <content><![CDATA[<p><strong>写在前面：</strong></p>
 <p>本文为搭建本博客的个人记录，不是保姆级教程。</p>
 <p>（未完待续……）</p>
@@ -10,14 +10,59 @@
 <h1 id="Github-Pages-Hexo搭建博客"><a href="#Github-Pages-Hexo搭建博客" class="headerlink" title="Github Pages + Hexo搭建博客"></a>Github Pages + Hexo搭建博客</h1><ul>
 <li>Hexo+Github: 个人博客网站搭建完全教程(看这篇就够了)：<a href="https://www.cnblogs.com/shwee/p/11421156.html">https://www.cnblogs.com/shwee/p/11421156.html</a></li>
 <li>GitHub+Hexo+Next搭建博客：<a href="https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a></li>
-<li>实验结果如下</li>
-<li>测试测试</li>
+<li>hexo超完整的搭建教程，让你拥有一个专属个人博客：<a href="https://zhuanlan.zhihu.com/p/44213627">https://zhuanlan.zhihu.com/p/44213627</a></li>
+<li>超详细Hexo+Github博客搭建小白教程：<a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a></li>
+<li>Hexo文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></li>
+</ul>
+<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><ul>
+<li>NexT：<a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></li>
+<li>NexT主题文档：<a href="https://theme-next.js.org/docs/">https://theme-next.js.org/docs/</a></li>
+</ul>
+<h1 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h1><ul>
+<li>在Hexo中渲染MathJax数学公式：<a href="https://www.jianshu.com/p/7ab21c7f0674">https://www.jianshu.com/p/7ab21c7f0674</a></li>
+</ul>
+<h1 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h1><ul>
+<li>PicGo：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></li>
+<li>Github+jsDelivr+PicGo 打造稳定快速、高效免费图床：<a href="https://www.itrhx.com/2019/08/01/A27-image-hosting/">https://www.itrhx.com/2019/08/01/A27-image-hosting/</a></li>
+<li>Typora原生集成PicGo图床工具！：<a href="https://blog.csdn.net/bruce_6/article/details/104821531">https://blog.csdn.net/bruce_6/article/details/104821531</a></li>
+</ul>
+<h1 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h1><ul>
+<li>Hexo 博客站点加速不完全指南：<a href="https://erenship.com/posts/db37.html">https://erenship.com/posts/db37.html</a></li>
+<li>Hexo+Github+Coding搭建博客：<a href="https://zhuanlan.zhihu.com/p/142545818">https://zhuanlan.zhihu.com/p/142545818</a> （参考优化部分）</li>
+<li>使用jsdelivr加速hexo next主题：<a href="https://blog.csdn.net/RayDon03/article/details/104398759">https://blog.csdn.net/RayDon03/article/details/104398759</a></li>
+<li>Hexo搭建个人博客（十四） | 修改文章永久链接为随机编号：<a href="https://blog.csdn.net/Mculover666/article/details/101525678">https://blog.csdn.net/Mculover666/article/details/101525678</a></li>
+<li>文章截断：<a href="https://github.com/chekun/hexo-excerpt">https://github.com/chekun/hexo-excerpt</a></li>
+</ul>
+<h1 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h1><ul>
+<li>github怎么绑定自己的域名？：<a href="https://www.zhihu.com/question/31377141">https://www.zhihu.com/question/31377141</a></li>
+</ul>
+<h1 id="免费顶级域名"><a href="#免费顶级域名" class="headerlink" title="免费顶级域名"></a>免费顶级域名</h1><ul>
+<li>免费顶级域名申请教程：<a href="https://post.smzdm.com/p/apzkoxg9/">https://post.smzdm.com/p/apzkoxg9/</a></li>
+<li>美国身份大全：<a href="http://www.shenfendaquan.com/">http://www.shenfendaquan.com/</a></li>
+<li>freenom域名解析问题：<a href="https://blog.csdn.net/chenwenjie1992/article/details/100921228">https://blog.csdn.net/chenwenjie1992/article/details/100921228</a></li>
+</ul>
+<h1 id="域名可用性及价格"><a href="#域名可用性及价格" class="headerlink" title="域名可用性及价格"></a>域名可用性及价格</h1><ul>
+<li><a href="https://www.domcomp.com/">https://www.domcomp.com/</a></li>
+</ul>
+<h1 id="搜索引擎收录"><a href="#搜索引擎收录" class="headerlink" title="搜索引擎收录"></a>搜索引擎收录</h1><ul>
+<li>让百度和google收录我们的网站：<a href="https://crossoverjie.top/2016/05/19/baidu-google/">https://crossoverjie.top/2016/05/19/baidu-google/</a></li>
+</ul>
+<h1 id="多终端同步（未完成）"><a href="#多终端同步（未完成）" class="headerlink" title="多终端同步（未完成）"></a>多终端同步（未完成）</h1><ul>
+<li>利用Hexo在多台电脑上提交和更新github pages博客：<a href="https://www.jianshu.com/p/0b1fccce74e0">https://www.jianshu.com/p/0b1fccce74e0</a></li>
+<li>使用hexo，如果换了电脑怎么更新博客？：<a href="https://www.zhihu.com/question/21193762">https://www.zhihu.com/question/21193762</a></li>
+<li>Windows下hexo博客迁移：<a href="https://zhuanlan.zhihu.com/p/106838262">https://zhuanlan.zhihu.com/p/106838262</a></li>
+</ul>
+<h1 id="双平台部署（GitHub-Coding）（未完成）"><a href="#双平台部署（GitHub-Coding）（未完成）" class="headerlink" title="双平台部署（GitHub+Coding）（未完成）"></a>双平台部署（GitHub+Coding）（未完成）</h1><ul>
+<li>Hexo 双线部署到 Coding 和 GitHub 并实现全站 HTTPS：<a href="https://zhuanlan.zhihu.com/p/100926319">https://zhuanlan.zhihu.com/p/100926319</a></li>
+<li>用Github和Coding双线绑定自定义域名：<a href="http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/">http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/</a></li>
+<li>部署到github和coding上的hexo的个人博客绑定同一域名：<a href="https://blog.csdn.net/qq_18144905/article/details/82724800">https://blog.csdn.net/qq_18144905/article/details/82724800</a></li>
 </ul>
 ]]></content>
       <categories>
         <category>个人记录</category>
       </categories>
       <tags>
+        <tag>GitHub</tag>
         <tag>Hexo</tag>
       </tags>
   </entry>
@@ -107,61 +152,33 @@ a^2+b^2=c^2</script><p>测试测试</p>
       </tags>
   </entry>
   <entry>
-    <title>基于GitHub Pages与Hexo搭建博客</title>
-    <url>/posts/2021-02-16/de4bbc48/</url>
-    <content><![CDATA[<p><strong>写在前面：</strong></p>
-<p>本文为搭建本博客的个人记录，不是保姆级教程。</p>
-<p>（未完待续……）</p>
+    <title>踩坑记录：迁移博客并更主题</title>
+    <url>/posts/2021-10-13/a3642880/</url>
+    <content><![CDATA[<p>该博客是寒假在家里电脑搭建的，开学前忘记将文件拷贝回学校，于是开始断更，后来又一直忘记并搁置（囧）。国庆回家，终于想起博客这茬，遂备份文件带回学校。于是开始了波折重重的迁移之路……</p>
 <span id="more"></span>
-<h1 id="Github-Pages-Hexo搭建博客"><a href="#Github-Pages-Hexo搭建博客" class="headerlink" title="Github Pages + Hexo搭建博客"></a>Github Pages + Hexo搭建博客</h1><ul>
-<li>Hexo+Github: 个人博客网站搭建完全教程(看这篇就够了)：<a href="https://www.cnblogs.com/shwee/p/11421156.html">https://www.cnblogs.com/shwee/p/11421156.html</a></li>
-<li>GitHub+Hexo+Next搭建博客：<a href="https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a></li>
-<li>hexo超完整的搭建教程，让你拥有一个专属个人博客：<a href="https://zhuanlan.zhihu.com/p/44213627">https://zhuanlan.zhihu.com/p/44213627</a></li>
-<li>超详细Hexo+Github博客搭建小白教程：<a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a></li>
-<li>Hexo文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></li>
+<h1 id="博客迁移"><a href="#博客迁移" class="headerlink" title="博客迁移"></a>博客迁移</h1><p>本人几乎没有多设备维护博客的需要，所以采取了简单粗暴的迁移方式，参考了以下这篇文章：</p>
+<ul>
+<li>Hexo博客迁移：<a href="https://swayye.xyz/2020/01/10/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/">https://swayye.xyz/2020/01/10/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</a></li>
 </ul>
-<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><ul>
-<li>NexT：<a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></li>
-<li>NexT主题文档：<a href="https://theme-next.js.org/docs/">https://theme-next.js.org/docs/</a></li>
+<p>前面的步骤都一切顺利，直到<code>hexo g</code>这一步报错并卡住，一开始以为是学校电脑的Hexo或者Nodejs版本较新有关，与原来博客文件夹内的不匹配，于是执行了相关更新操作，依旧报错，最后发现错误与<code>hexo-renderer-sass</code>插件有关。</p>
+<p>网上关于这个插件的错误修复方法各种各样，经过多番查找，终于找到了错误完全一致的解决方法：</p>
+<ul>
+<li>node-sass安装遇到的错误：<a href="http://www.edulinks.cn/2021/07/27/20210727-node-sass-problem/">http://www.edulinks.cn/2021/07/27/20210727-node-sass-problem/</a></li>
+<li>Add support for Node 16：<a href="https://github.com/knksmith57/hexo-renderer-sass/issues/43">https://github.com/knksmith57/hexo-renderer-sass/issues/43</a></li>
 </ul>
-<h1 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h1><ul>
-<li>在Hexo中渲染MathJax数学公式：<a href="https://www.jianshu.com/p/7ab21c7f0674">https://www.jianshu.com/p/7ab21c7f0674</a></li>
+<p>经过以上一轮操作，<code>hexo g</code>和<code>hexo s</code>都没报错了，本地预览一切正常，想着万事大吉。没想到，部署到网页端，提示输入GitHub的账号、密码，输入完成后提示连接错误。挂了梯子再试一次，还是不行。于是又是一番搜索，终于——原来是GitHub更新安全策略了……</p>
+<ul>
+<li>Hexo/MacOs github不再支持密码验证解决方案2021.8.13更新：<a href="http://odcowl.com/2021/08/16/Hexo%E5%8D%9A%E5%AE%A2%EF%BC%9Agithub%E4%B8%8D%E5%86%8D%E6%94%AF%E6%8C%81%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%882021-8-13%E6%9B%B4%E6%96%B0/">http://odcowl.com/2021/08/16/Hexo%E5%8D%9A%E5%AE%A2%EF%BC%9Agithub%E4%B8%8D%E5%86%8D%E6%94%AF%E6%8C%81%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%882021-8-13%E6%9B%B4%E6%96%B0/</a></li>
 </ul>
-<h1 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h1><ul>
-<li>PicGo：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></li>
-<li>Github+jsDelivr+PicGo 打造稳定快速、高效免费图床：<a href="https://www.itrhx.com/2019/08/01/A27-image-hosting/">https://www.itrhx.com/2019/08/01/A27-image-hosting/</a></li>
-<li>Typora原生集成PicGo图床工具！：<a href="https://blog.csdn.net/bruce_6/article/details/104821531">https://blog.csdn.net/bruce_6/article/details/104821531</a></li>
+<h1 id="升级主题"><a href="#升级主题" class="headerlink" title="升级主题"></a>升级主题</h1><p>升级主题还算比较顺利，主要参考了NexT主题的官方文档：</p>
+<ul>
+<li>更新步骤：<a href="https://theme-next.js.org/docs/getting-started/upgrade.html">https://theme-next.js.org/docs/getting-started/upgrade.html</a></li>
+<li>安装步骤：<a href="https://theme-next.js.org/docs/getting-started/installation.html">https://theme-next.js.org/docs/getting-started/installation.html</a></li>
+<li>使用原有配置：<a href="https://theme-next.js.org/docs/getting-started/configuration.html">https://theme-next.js.org/docs/getting-started/configuration.html</a></li>
 </ul>
-<h1 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h1><ul>
-<li>Hexo 博客站点加速不完全指南：<a href="https://erenship.com/posts/db37.html">https://erenship.com/posts/db37.html</a></li>
-<li>Hexo+Github+Coding搭建博客：<a href="https://zhuanlan.zhihu.com/p/142545818">https://zhuanlan.zhihu.com/p/142545818</a> （参考优化部分）</li>
-<li>使用jsdelivr加速hexo next主题：<a href="https://blog.csdn.net/RayDon03/article/details/104398759">https://blog.csdn.net/RayDon03/article/details/104398759</a></li>
-<li>Hexo搭建个人博客（十四） | 修改文章永久链接为随机编号：<a href="https://blog.csdn.net/Mculover666/article/details/101525678">https://blog.csdn.net/Mculover666/article/details/101525678</a></li>
-<li>文章截断：<a href="https://github.com/chekun/hexo-excerpt">https://github.com/chekun/hexo-excerpt</a></li>
-</ul>
-<h1 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h1><ul>
-<li>github怎么绑定自己的域名？：<a href="https://www.zhihu.com/question/31377141">https://www.zhihu.com/question/31377141</a></li>
-</ul>
-<h1 id="免费顶级域名"><a href="#免费顶级域名" class="headerlink" title="免费顶级域名"></a>免费顶级域名</h1><ul>
-<li>免费顶级域名申请教程：<a href="https://post.smzdm.com/p/apzkoxg9/">https://post.smzdm.com/p/apzkoxg9/</a></li>
-<li>美国身份大全：<a href="http://www.shenfendaquan.com/">http://www.shenfendaquan.com/</a></li>
-<li>freenom域名解析问题：<a href="https://blog.csdn.net/chenwenjie1992/article/details/100921228">https://blog.csdn.net/chenwenjie1992/article/details/100921228</a></li>
-</ul>
-<h1 id="域名可用性及价格"><a href="#域名可用性及价格" class="headerlink" title="域名可用性及价格"></a>域名可用性及价格</h1><ul>
-<li><a href="https://www.domcomp.com/">https://www.domcomp.com/</a></li>
-</ul>
-<h1 id="搜索引擎收录"><a href="#搜索引擎收录" class="headerlink" title="搜索引擎收录"></a>搜索引擎收录</h1><ul>
-<li>让百度和google收录我们的网站：<a href="https://crossoverjie.top/2016/05/19/baidu-google/">https://crossoverjie.top/2016/05/19/baidu-google/</a></li>
-</ul>
-<h1 id="多终端同步（未完成）"><a href="#多终端同步（未完成）" class="headerlink" title="多终端同步（未完成）"></a>多终端同步（未完成）</h1><ul>
-<li>利用Hexo在多台电脑上提交和更新github pages博客：<a href="https://www.jianshu.com/p/0b1fccce74e0">https://www.jianshu.com/p/0b1fccce74e0</a></li>
-<li>使用hexo，如果换了电脑怎么更新博客？：<a href="https://www.zhihu.com/question/21193762">https://www.zhihu.com/question/21193762</a></li>
-<li>Windows下hexo博客迁移：<a href="https://zhuanlan.zhihu.com/p/106838262">https://zhuanlan.zhihu.com/p/106838262</a></li>
-</ul>
-<h1 id="双平台部署（GitHub-Coding）（未完成）"><a href="#双平台部署（GitHub-Coding）（未完成）" class="headerlink" title="双平台部署（GitHub+Coding）（未完成）"></a>双平台部署（GitHub+Coding）（未完成）</h1><ul>
-<li>Hexo 双线部署到 Coding 和 GitHub 并实现全站 HTTPS：<a href="https://zhuanlan.zhihu.com/p/100926319">https://zhuanlan.zhihu.com/p/100926319</a></li>
-<li>用Github和Coding双线绑定自定义域名：<a href="http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/">http://imbowei.com/2018/07/29/Github-and-Coding-bulid-blog/</a></li>
-<li>部署到github和coding上的hexo的个人博客绑定同一域名：<a href="https://blog.csdn.net/qq_18144905/article/details/82724800">https://blog.csdn.net/qq_18144905/article/details/82724800</a></li>
+<h1 id="其他参考"><a href="#其他参考" class="headerlink" title="其他参考"></a>其他参考</h1><ul>
+<li><a href="https://www.fangr.cc/2017/09/27/hexo-workflow.html">https://www.fangr.cc/2017/09/27/hexo-workflow.html</a></li>
+<li><a href="https://www.jianshu.com/p/802182c01b59">https://www.jianshu.com/p/802182c01b59</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -169,7 +186,6 @@ a^2+b^2=c^2</script><p>测试测试</p>
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>GitHub</tag>
       </tags>
   </entry>
 </search>

@@ -2,9 +2,12 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)">
 <meta name="generator" content="Hexo 5.4.0">
+
+
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -14,96 +17,67 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"enquan.gq","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
-  </script>
-
-  <meta name="description" content="写在前面： 本文为搭建本博客的个人记录，不是保姆级教程。 （未完待续……）">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"enquan.gq","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="该博客是寒假在家里电脑搭建的，开学前忘记将文件拷贝回学校，于是开始断更，后来又一直忘记并搁置（囧）。国庆回家，终于想起博客这茬，遂备份文件带回学校。于是开始了波折重重的迁移之路……">
 <meta property="og:type" content="article">
-<meta property="og:title" content="New Device">
+<meta property="og:title" content="踩坑记录：迁移博客并更主题">
 <meta property="og:url" content="https://enquan.gq/posts/2021-10-13/a3642880/index.html">
 <meta property="og:site_name" content="泉然不知">
-<meta property="og:description" content="写在前面： 本文为搭建本博客的个人记录，不是保姆级教程。 （未完待续……）">
+<meta property="og:description" content="该博客是寒假在家里电脑搭建的，开学前忘记将文件拷贝回学校，于是开始断更，后来又一直忘记并搁置（囧）。国庆回家，终于想起博客这茬，遂备份文件带回学校。于是开始了波折重重的迁移之路……">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-13T06:06:39.000Z">
-<meta property="article:modified_time" content="2021-10-13T07:17:48.841Z">
+<meta property="article:modified_time" content="2021-10-13T12:17:22.865Z">
 <meta property="article:author" content="Invictus">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
 
+
 <link rel="canonical" href="https://enquan.gq/posts/2021-10-13/a3642880/">
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'zh-CN'
-  };
-</script>
 
-  <title>New Device | 泉然不知</title>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://enquan.gq/posts/2021-10-13/a3642880/","path":"posts/2021-10-13/a3642880/","title":"踩坑记录：迁移博客并更主题"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>踩坑记录：迁移博客并更主题 | 泉然不知</title>
   
 
 
 
 
-
-
   <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 <!-- hexo injector head_end end -->
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
+  <main class="main">
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
   <div class="site-meta">
 
     <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
+      <i class="logo-line"></i>
       <h1 class="site-title">泉然不知</h1>
-      <span class="logo-line-after"><i></i></span>
+      <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">Invictus</p>
   </div>
@@ -117,34 +91,13 @@
 
 
 
-
 <nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">2</span></a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">3</span></a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
-
-  </li>
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">2</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">3</span></a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -155,23 +108,22 @@
 
 
   <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
+    <div class="popup search-popup"><div class="search-header">
   <span class="search-icon">
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
-  <span class="popup-btn-close">
+  <span class="popup-btn-close" role="button">
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result">
-  <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
 
@@ -179,27 +131,102 @@
   </div>
 
 </div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB"><span class="nav-number">1.</span> <span class="nav-text">博客迁移</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%87%E7%BA%A7%E4%B8%BB%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">升级主题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E5%8F%82%E8%80%83"><span class="nav-number">3.</span> <span class="nav-text">其他参考</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Invictus"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Invictus</p>
+  <div class="site-description" itemprop="description">Bus, Metro, Walk.</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/enquan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;enquan" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
     </header>
 
     
-  <div class="back-to-top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
 
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
 
-          <div class="content post posts-expand">
-            
+    <div class="main-inner post posts-expand">
 
-    
+
+  
+
+
+<div class="post-block">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://enquan.gq/posts/2021-10-13/a3642880/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -213,51 +240,54 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          New Device
+          踩坑记录：迁移博客并更主题
         </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
 
-              <time title="创建时间：2021-10-13 14:06:39 / 修改时间：15:17:48" itemprop="dateCreated datePublished" datetime="2021-10-13T14:06:39+08:00">2021-10-13</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">个人记录</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2021-10-13 14:06:39 / 修改时间：20:17:22" itemprop="dateCreated datePublished" datetime="2021-10-13T14:06:39+08:00">2021-10-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%AA%E4%BA%BA%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">个人记录</span></a>
+        </span>
+    </span>
 
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>255</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.2k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -266,17 +296,31 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
-        <p><strong>写在前面：</strong></p>
-<p>本文为搭建本博客的个人记录，不是保姆级教程。</p>
-<p>（未完待续……）</p>
+        <p>该博客是寒假在家里电脑搭建的，开学前忘记将文件拷贝回学校，于是开始断更，后来又一直忘记并搁置（囧）。国庆回家，终于想起博客这茬，遂备份文件带回学校。于是开始了波折重重的迁移之路……</p>
 <span id="more"></span>
-<h1 id="Github-Pages-Hexo搭建博客"><a href="#Github-Pages-Hexo搭建博客" class="headerlink" title="Github Pages + Hexo搭建博客"></a>Github Pages + Hexo搭建博客</h1><ul>
-<li>Hexo+Github: 个人博客网站搭建完全教程(看这篇就够了)：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/shwee/p/11421156.html">https://www.cnblogs.com/shwee/p/11421156.html</a></li>
-<li>GitHub+Hexo+Next搭建博客：<a target="_blank" rel="noopener" href="https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a></li>
-<li>实验结果如下</li>
-<li>测试测试</li>
+<h1 id="博客迁移"><a href="#博客迁移" class="headerlink" title="博客迁移"></a>博客迁移</h1><p>本人几乎没有多设备维护博客的需要，所以采取了简单粗暴的迁移方式，参考了以下这篇文章：</p>
+<ul>
+<li>Hexo博客迁移：<a target="_blank" rel="noopener" href="https://swayye.xyz/2020/01/10/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/">https://swayye.xyz/2020/01/10/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</a></li>
+</ul>
+<p>前面的步骤都一切顺利，直到<code>hexo g</code>这一步报错并卡住，一开始以为是学校电脑的Hexo或者Nodejs版本较新有关，与原来博客文件夹内的不匹配，于是执行了相关更新操作，依旧报错，最后发现错误与<code>hexo-renderer-sass</code>插件有关。</p>
+<p>网上关于这个插件的错误修复方法各种各样，经过多番查找，终于找到了错误完全一致的解决方法：</p>
+<ul>
+<li>node-sass安装遇到的错误：<a target="_blank" rel="noopener" href="http://www.edulinks.cn/2021/07/27/20210727-node-sass-problem/">http://www.edulinks.cn/2021/07/27/20210727-node-sass-problem/</a></li>
+<li>Add support for Node 16：<a target="_blank" rel="noopener" href="https://github.com/knksmith57/hexo-renderer-sass/issues/43">https://github.com/knksmith57/hexo-renderer-sass/issues/43</a></li>
+</ul>
+<p>经过以上一轮操作，<code>hexo g</code>和<code>hexo s</code>都没报错了，本地预览一切正常，想着万事大吉。没想到，部署到网页端，提示输入GitHub的账号、密码，输入完成后提示连接错误。挂了梯子再试一次，还是不行。于是又是一番搜索，终于——原来是GitHub更新安全策略了……</p>
+<ul>
+<li>Hexo/MacOs github不再支持密码验证解决方案2021.8.13更新：<a target="_blank" rel="noopener" href="http://odcowl.com/2021/08/16/Hexo%E5%8D%9A%E5%AE%A2%EF%BC%9Agithub%E4%B8%8D%E5%86%8D%E6%94%AF%E6%8C%81%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%882021-8-13%E6%9B%B4%E6%96%B0/">http://odcowl.com/2021/08/16/Hexo%E5%8D%9A%E5%AE%A2%EF%BC%9Agithub%E4%B8%8D%E5%86%8D%E6%94%AF%E6%8C%81%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%882021-8-13%E6%9B%B4%E6%96%B0/</a></li>
+</ul>
+<h1 id="升级主题"><a href="#升级主题" class="headerlink" title="升级主题"></a>升级主题</h1><p>升级主题还算比较顺利，主要参考了NexT主题的官方文档：</p>
+<ul>
+<li>更新步骤：<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/upgrade.html">https://theme-next.js.org/docs/getting-started/upgrade.html</a></li>
+<li>安装步骤：<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/installation.html">https://theme-next.js.org/docs/getting-started/installation.html</a></li>
+<li>使用原有配置：<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/configuration.html">https://theme-next.js.org/docs/getting-started/configuration.html</a></li>
+</ul>
+<h1 id="其他参考"><a href="#其他参考" class="headerlink" title="其他参考"></a>其他参考</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://www.fangr.cc/2017/09/27/hexo-workflow.html">https://www.fangr.cc/2017/09/27/hexo-workflow.html</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/802182c01b59">https://www.jianshu.com/p/802182c01b59</a></li>
 </ul>
 
     </div>
@@ -284,16 +328,18 @@
     
     
     
-        
 
-<div>
-<ul class="post-copyright">
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>Invictus
+      <strong>本文作者： </strong>Invictus
   </li>
   <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://enquan.gq/posts/2021-10-13/a3642880/" title="New Device">https://enquan.gq/posts/2021-10-13/a3642880/</a>
+      <strong>本文链接：</strong>
+      <a href="https://enquan.gq/posts/2021-10-13/a3642880/" title="踩坑记录：迁移博客并更主题">https://enquan.gq/posts/2021-10-13/a3642880/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -301,144 +347,38 @@
 </ul>
 </div>
 
-
-      <footer class="post-footer">
-          
           <div class="post-tags">
               <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
           </div>
 
         
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/posts/2021-02-16/de4bbc48/" rel="prev" title="基于GitHub Pages与Hexo搭建博客">
-      <i class="fa fa-chevron-left"></i> 基于GitHub Pages与Hexo搭建博客
-    </a></div>
-      <div class="post-nav-item"></div>
-    </div>
-      </footer>
-    
-  </article>
-  
-  
-  
-
-
-
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/posts/2021-02-16/de4bbc48/" rel="prev" title="基于GitHub Pages与Hexo搭建博客">
+                  <i class="fa fa-chevron-left"></i> 基于GitHub Pages与Hexo搭建博客
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
           </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="nav-number">1.</span> <span class="nav-text">Github Pages + Hexo搭建博客</span></a></li></ol></div>
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Invictus"
-      src="/images/avatar.png">
-  <p class="site-author-name" itemprop="name">Invictus</p>
-  <div class="site-description" itemprop="description">Bus, Metro, Walk.</div>
+    </footer>
+  </article>
 </div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
+
+
+
+
+
+
 </div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/enquan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;enquan" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-  </div>
-  <div class="cc-license motion-element" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
-  </div>
+  </main>
 
+  <footer class="footer">
+    <div class="footer-inner">
 
-
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
 
 <div class="copyright">
-  
   &copy; 
   <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
@@ -446,13 +386,8 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Invictus</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div>
-
-        
 <div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
       </span>
@@ -460,8 +395,7 @@
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
       </span>
@@ -470,61 +404,36 @@
       </span>
     </span>
 </div>
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
+
+    </div>
+  </footer>
 
   
   <script src="//cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
-
-
-
-
-  
-<script src="/js/local-search.js"></script>
-
-
-
-
-
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
 
 
 
 
 
   
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
 
   
 
-  
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","per_page":true,"mhchem":false,"js":{"url":"//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
 
 </body>
 </html>
